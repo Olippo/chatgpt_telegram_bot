@@ -1,5 +1,5 @@
-telegram_token: ${{ secrets.RENDER_TELEGRAM_TOKEN }}
-openai_api_key: ${{ secrets.RENDER_OPENAI_API_KEY }}
+telegram_token: TELEGRAM_TOKEN
+openai_api_key: OPENAI_API_KEY
 use_chatgpt_api: true
 allowed_telegram_usernames: []  # if empty, the bot is available to anyone. pass a username string to allow it and/or user ids as integers
 new_dialog_timeout: 600  # new dialog starts after timeout (in seconds)
