@@ -17,4 +17,7 @@ WORKDIR /code
 
 RUN pip3 install -r requirements.txt
 
+ENV telegram_token=${TELEGRAM_TOKEN}
+ENV openai_api_key=${OPENAI_API_KEY}
+
 CMD ["bash"]
