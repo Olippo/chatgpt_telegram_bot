@@ -1,5 +1,5 @@
-telegram_token: ${TELEGRAM_TOKEN}
-openai_api_key: ${OPENAI_API_KEY}
+telegram_token: 6188315025:AAHCMEYKp4XeFI3OU36EP-djPTw0PrYVncU
+openai_api_key: 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
 use_chatgpt_api: true
 allowed_telegram_usernames: [olippo]  # if empty, the bot is available to anyone. pass a username string to allow it and/or user ids as integers
 new_dialog_timeout: 600  # new dialog starts after timeout (in seconds)
